@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  margin-top: 0px; }
+
+#app-container {
+  width: 100%; }
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+.column-container {
+  font-size: 0;
+  font-family: "Hind", "Futura", "sans-serif"; }
+
+.column-container > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium; }
+
+.mobile {
+  text-align: center;
+  border: 1px solid #eee;
+  height: 80px;
+  line-height: 50px; }
+
+.header-desktop {
+  display: none; }
+
+.header__mobile-logo-column {
+  width: 16.665%; }
+
+.header__logo {
+  max-width: 50px;
+  align-items: center;
+  display: inline-block;
+  padding-top: 20px; }
+
+.header__restaurants-column {
+  width: 33.33%; }
+
+.header__ventures-column {
+  width: 33.33%; }
+
+.header__menu-column {
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 15px;
+  width: 16.665%; }
+
+.restaurants {
+  background-color: black;
+  color: white;
+  height: 50px; }
+
+.restaurants__desc {
+  font-size: 14px;
+  width: 83.335%;
+  margin: 0;
+  padding-left: 10px;
+  letter-spacing: 1px; }
+
+.restaurants__arrow {
+  width: 16.665%;
+  text-align: center;
+  border-left: 1px solid #eee;
+  padding: 12px 0px; }
+
+.restaurants-desktop {
+  display: none; }
+
+.container_restaurants {
+  text-align: center;
+  width: 100%;
+  padding: 40px 20px;
+  color: white; }
+
+.container_restaurants__column {
+  width: 100%;
+  padding: 100px 0px;
+  margin-bottom: 5px; }
+
+.wavy-line {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.noodle-bar {
+  background-image: url("../images/momofuko-01-noodlebarbowl_mini.jpg");
+  background-size: cover; }
+
+.ssam-bar {
+  background-image: url("../images/momofuko-02-ssam-bar.jpg");
+  background-size: cover; }
+
+.ko {
+  background-image: url("../images/momofuko-03-ko.png");
+  background-size: cover; }
+
+.ma-peche {
+  background-image: url("../images/momofuko-04-ma-peche.jpg");
+  background-size: cover; }
+
+.nishi {
+  background-image: url("../images/momofuko-05-nishi.jpg");
+  background-size: cover; }
+
+.ccdc {
+  background-image: url("../images/momofuko-06-CCDC.jpg");
+  background-size: cover; }
+
+.daisho {
+  background-image: url("../images/momofuko-07-daisho.png");
+  background-size: cover; }
+
+.shoto {
+  background-image: url("../images/momofuko-08-shoto.png");
+  background-size: cover; }
+
+@media screen and (min-width: 780px) {
+  .header {
+    display: none; }
+
+  .restaurants {
+    display: none; }
+
+  .container_restaurants {
+    margin-top: 100px; }
+
+  .container_restaurants__column {
+    width: 48%;
+    padding: 100px 0px;
+    margin-bottom: 2px;
+    margin-right: 2px; }
+
+  .restaurants-desktop {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    left: 250px; }
+
+  .our-restaurants {
+    width: 45%;
+    padding-left: 20px;
+    font-size: 14px; }
+
+  .by-concept {
+    width: 20%;
+    padding-left: 50px;
+    font-size: 14px; }
+
+  .by-concept p {
+    margin-bottom: 0px; }
+
+  .by-location {
+    width: 10%;
+    padding-left: 15px;
+    font-size: 14px; }
+
+  .wavy-line-two {
+    width: 50px;
+    margin-left: 10px; }
+
+  .header-desktop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Hind", "Futura", "sans-serif"; }
+
+  .header-desktop div {
+    margin-bottom: 20px; }
+
+  .container_restaurants {
+    padding-left: 250px; }
+
+  .full-logo {
+    width: 200px;
+    margin: 20px 0px;
+    padding-bottom: 60px;
+    padding-right: 15px; }
+
+  .stacked-bowls {
+    border-top: 1px solid #eee;
+    padding-top: 40px;
+    font-size: 14px; }
+
+  .stacked-bowls img {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .three-wavy-lines {
+    border-top: 1px solid #eee;
+    padding-top: 40px;
+    font-size: 14px; }
+
+  .three-wavy-lines img {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .to-go-box {
+    border-top: 1px solid #eee;
+    padding-top: 40px;
+    font-size: 14px; }
+
+  .to-go-box img {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .social-media {
+    border-top: 1px solid #eee;
+    padding-top: 40px; }
+
+  .social-media i {
+    padding-left: 10px;
+    font-size: 16px; }
+
+  .reservations {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    font-size: 14px; }
+
+  .reservations img {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
